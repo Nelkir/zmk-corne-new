@@ -106,16 +106,16 @@
             bindings = <
 &none  &kp TILDE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8    &kp NUMBER_9     &kp NUMBER_0      &kp DEL            &none
        &bt BT_CLR_ALL  &trans        &trans        &kp LG(C)     &kp LG(V)     &kp LG(X)       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-       &kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &trans          &kp DOWN_ARROW  &trans           &kp MINUS         &kp SQT
+       &kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &trans          &kp DOWN_ARROW  &trans           &kp BACKSLASH     &kp MINUS
                                                    &out OUT_TOG  &trans        &trans          &trans          &kp RG(SPACE)   &trans
             >;
         };
 
         num {
             bindings = <
-&none  &mt TILDE GRAVE  &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp KP_PLUS             &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS          &mt SEMICOLON COLON  &mt QUESTION EXCLAMATION  &kp CARET  &trans  &none
-       &mt PIPE BSLH    &kp SLASH     &kp N4  &kp N5  &kp N6  &mt UNDERSCORE MINUS    &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &kp HASH             &kp DOLLAR                &trans     &trans
-       &kp EQUAL        &kp NUMBER_0  &kp N1  &kp N2  &kp N3  &mt COMMA KP_DOT        &kp LESS_THAN                &kp GREATER_THAN               &kp PERCENT          &kp AT_SIGN               &trans     &trans
+&none  &kp PRINTSCREEN  &kp F1        &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6                       &kp F7                         &kp F9       &kp F10      &kp F11  &kp F12  &none
+       &mt PIPE BSLH    &kp SLASH     &kp N4  &kp N5  &kp N6  &mt UNDERSCORE MINUS    &mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &kp HASH     &kp DOLLAR   &trans   &trans
+       &kp EQUAL        &kp NUMBER_0  &kp N1  &kp N2  &kp N3  &mt COMMA KP_DOT        &kp LESS_THAN                &kp GREATER_THAN               &kp PERCENT  &kp AT_SIGN  &trans   &trans
                                               &trans  &trans  &trans                  &trans                       &trans                         &trans
             >;
         };
