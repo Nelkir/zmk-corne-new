@@ -107,7 +107,7 @@
 &none  &kp TILDE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_9    &kp NUMBER_0     &kp MINUS         &kp DEL            &none
        &bt BT_CLR_ALL  &trans        &trans        &kp LG(C)     &kp LG(V)     &kp LG(X)       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
        &kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &trans          &kp DOWN_ARROW  &trans           &kp C_VOL_DN      &kp SQT
-                                                   &out OUT_TOG  &trans        &trans          &trans          &trans          &trans
+                                                   &out OUT_TOG  &trans        &trans          &trans          &kp RG(SPACE)   &trans
             >;
         };
 
