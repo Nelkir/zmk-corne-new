@@ -106,7 +106,7 @@
             bindings = <
 &none  &kp TILDE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5      &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0      &kp DEL            &none
        &trans          &trans        &trans        &kp LG(C)     &kp LG(V)     &kp LG(X)         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-       &kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans            &kp MINUS       &kp EQUAL       &trans        &trans           &kp BACKSLASH     &trans
+       &kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans            &trans          &kp MINUS       &kp EQUAL     &trans           &kp BACKSLASH     &trans
                                                    &out OUT_TOG  &trans        &bt BT_CLR_ALL    &trans          &kp RG(SPACE)   &trans
             >;
         };
