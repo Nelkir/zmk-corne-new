@@ -113,10 +113,10 @@
 
         num {
             bindings = <
-&none  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7  &kp F9  &kp F10  &kp F11  &kp F12  &none
-       &trans           &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
-       &kp RIGHT_SHIFT  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans   &trans   &trans
-                                        &trans  &to 3   &trans    &trans  &trans  &trans
+&none  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &kp F6  &kp F7     &kp F9     &kp F10  &kp F11  &kp F12  &none
+       &trans           &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans   &trans   &trans
+       &kp RIGHT_SHIFT  &trans  &trans  &trans  &trans  &trans    &trans  &kp MINUS  &kp EQUAL  &trans   &trans   &trans
+                                        &trans  &to 3   &trans    &trans  &trans     &trans
             >;
         };
 
