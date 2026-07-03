@@ -92,7 +92,7 @@
         L1 {
             bindings = <
 &none  &kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0      &kp BACKSPACE      &none
-       &trans          &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp LG(B)       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+       &kp LA(TAB)     &kp LG(Z)     &kp LG(X)     &kp LG(C)     &kp LG(V)     &kp LG(B)       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
        &kp LEFT_SHIFT  &kp LC(Z)     &kp RC(X)     &kp LC(C)     &kp RC(V)     &kp LC(B)       &trans          &kp MINUS       &kp EQUAL     &trans           &kp BACKSLASH     &trans
                                                    &trans        &trans        &trans          &trans          &kp RG(SPACE)   &trans
             >;
